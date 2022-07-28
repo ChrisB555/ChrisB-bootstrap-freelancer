@@ -1,0 +1,178 @@
+body{
+    
+    letter-spacing: 1px;
+}
+#nav{
+  overflow: hidden; 
+  padding:30px ; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+  background-color: rgb(30, 31, 32);
+  color: white;
+  
+}
+
+#link{
+    color: white;
+    margin-left: 10px;
+}
+#link:hover{
+    color: teal;
+}
+#burger{
+    background-color: rgb(29, 163, 141);
+    padding: 0px;
+}
+#cont{
+    background-color: rgb(29, 163, 141);
+    
+    
+}
+#logo{
+    width: 500px;
+    height: 250px; 
+}
+#head{
+    margin-top: 180px;  
+}
+
+h4{
+    margin-top: 20px;
+}
+.portofolio{
+    margin-top: 80px;  
+}
+.over{
+  position: relative;
+  width: 100%;
+  
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease;
+  background-color:rgb(29, 163, 141) ;
+}
+#icon{
+    font-size: 70px;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color:rgb(29, 163, 141) ;
+    color: white;
+    border: none;
+}
+.over:hover .overlay{
+    opacity: 0.8;
+}
+
+
+.imag{
+    width: 100%;
+    height: auto;
+ }
+#message{
+    height: 100px;
+}
+#about{
+    background-color: rgb(29, 163, 141);
+    margin-top: 80px;
+}
+.btn{
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: rgb(29, 163, 141);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    
+    
+}
+.btn:hover{
+    background-color:rgb(29, 163, 141) ;
+    color: white;
+}
+
+.form-control{
+    border: none;
+    font-size: 26px;
+    height: 40px;
+    margin-top: 50px;
+    width: 100%;
+}
+.send{
+    border:1px solid rgb(29, 163, 141);
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: rgb(29, 163, 141);
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    width: 100px;
+}
+.send:hover{
+    background-color: teal;
+}
+.p-down{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.p-color{
+    color:  rgb(29, 163, 141);
+    font-size: 18px;
+   
+}
+.p-color:hover{
+    color:  rgb(39, 145, 127);
+}
+.social-media{
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 30px;  
+}
+.social-media:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+#footer{
+    height: 100px;
+    padding: 30px;
+    font-size: 12px;
+}
+.popup{
+ 
+  background-color:white ;
+  
+  padding: 50px;
+}
+
+.closebtn{
+    border: none;
+    font-size: 24px;
+    color: rgb(29, 163, 141);
+    background-color: white;
+}
+#closebtn{
+    font-size: 22px;
+    background-color:rgb(29, 163, 141) ;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+}
